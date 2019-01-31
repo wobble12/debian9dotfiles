@@ -21,7 +21,7 @@ On met à jour notre liste de dépôts, puis on installe PHP 7.2
 ```
 *Lisez bien, vous reçevrez peut être un message comme quoi il vous manque un paquet, installez le et relancez l'opération*
 ```bash
-# sudo apt-get install php7.2
+# sudo apt-get install php7.2 php7.2-xml php7.2-zip
 ```
 
 ## Installation de MariaDB (Serveur de base de données)
@@ -56,4 +56,9 @@ $ curl -sL https://deb.nodesource.com/setup_8.x | sudo bash -
 On installe nodejs (qui contient automatiquement npm)
 ```bash
 # apt-get install -y nodejs
+```
+
+## Installation de composer 
+```bash
+# apt-get install composer
 ```
