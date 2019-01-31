@@ -23,3 +23,9 @@ On met à jour notre liste de dépôts, puis on installe PHP 7.2
 ```bash
 # sudo apt-get install php7.2
 ```
+
+## Installation de MariaDB (Serveur de base de données)
+```bash
+# apt-get install mariadb-server
+# mysql_secure_installation
+```
